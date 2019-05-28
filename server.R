@@ -17,46 +17,69 @@ library(rgdal)
 server = function(input, output) {
     # mapa regional
     mex <- readOGR(dsn="MapaSHP")
-    mex@data$Nombre <- c("Frontera.norte", "Noroeste", "Noreste", "Centro.norte",
-                         "Centro.sur", "Sur", "Mexico")
-
+    mex@data$Region <- ''
+    mex@data$INPC <- -1.
+    mex@data$ESTADO <- as.character(mex@data$ESTADO)
+    # cambio de acentos que se pierden por el enconding
+    mex@data$ESTADO[7] <- 'Queretaro'
+    mex@data$ESTADO[9] <- 'Michoacan'
+    mex@data$ESTADO[10] <- 'CDMX'
+    mex@data$ESTADO[14] <- 'Yucatan'
+    mex@data$ESTADO[29] <- 'San Luis Potosi'
+    mex@data$ESTADO[30] <- 'Nuevo Leon'
+    # cambio de id mal en el mapa y nombres
+    mex@data$ESTADO[mex@data$ID==28] <- 'Tamaulipas norte'
+    mex@data$ID[mex@data$ID==28] <- 37
+    mex@data$ESTADO[as.character(mex@data$CODIGO)=='MX37'] <- 'Tamaulipas'
+    mex@data$ID[as.character(mex@data$CODIGO)=='MX37'] <- 28
+    mex@data$ESTADO[ mex@data$ID == 9   ] <-  'CDMX'
+    mex@data$Region [ mex@data$ID == 9   ] <-  'CDMX'
 
     output$mapaReg <- renderLeaflet({
-        epsg2163 <- leafletCRS(
-            crsClass = "L.Proj.CRS.TMS",
-            code = "WGS84",
-            proj4def = '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0',
-            resolutions=0:10)
         # pequenio casteo
-      # input <- list(2017, 12, 6)
-      # names(input) <- c('inpcReginitanio', 'inpcReginitmes', 'inpcRegmes4')
+        # input <- list(2017, 12, 6)
+        # names(input) <- c('inpcReginitanio', 'inpcReginitmes', 'inpcRegmes4')
         if(nchar(as.character(input$inpcReginitmes)) == 1)
         {
-          mes.casteo <- paste0('0',input$inpcReginitmes)
+            mes.casteo <- paste0('0',input$inpcReginitmes)
         } else{
-          mes.casteo <- input$inpcReginitmes
+            mes.casteo <- input$inpcReginitmes
         }
-
-
         string <-paste0('Mapa/PronosticoINPC_Tasa_Interanual_anio',
                         input$inpcReginitanio, 'mes_',input$inpcReginitanio, '-',
                         mes.casteo,"horizonte_",
                         input$inpcRegmes, '.csv')
-        pronosticos_regional <- read.csv(string)
-        mex@data$INPC <<- sapply(pronosticos_regional[, mex@data$Nombre], mean)
-        leaflet(mex,options = leafletOptions(crs = epsg2163)) %>%
-            setView(-97.9190868+750, 17.3610943-450, 3, options = leafletOptions(crs = epsg2163)) %>%
+        pronosticos_regional <- read.csv(string, row.names = 1)
+        valores <- sapply(pronosticos_regional, mean)
+        id.centro.norte <- c(1, 8, 11, 14, 16, 22, 24 ) #1-aguascalientes, 8-Colima, 11-Guanajuato, 14-Jalisco, 22-Qro, 24-SLP
+        mex@data$INPC[match(id.centro.norte, mex@data$ID)  ] <<- valores['Centro.norte']
+        mex@data$Region [match(id.centro.norte, mex@data$ID)  ] <<- 'Centro norte'
+        id.Frontera.norte <- c(2, 3, 33, 34, 35, 36, 37) #2-Baja-norte, 3-BC sur, 33-Sonora-norte, 34-Chihuahuanorte, 35-Coahuila-norte, 36-NL-norte, 37-Tamaulipas-norte
+        mex@data$INPC[match(id.Frontera.norte, mex@data$ID)  ] <<- valores['Frontera.norte']
+        mex@data$Region[match(id.Frontera.norte, mex@data$ID)  ] <<- 'Frontera norte'
+        id.Noroeste <- c(18, 25, 26) # 18-Nayarit, 25-Sinaloa, 26-Sonora
+        mex@data$INPC[match(id.Noroeste, mex@data$ID)  ] <<- valores['Noroeste']
+        mex@data$Region [match(id.Noroeste, mex@data$ID)  ] <<- 'Noroeste'
+        id.Noreste <- c(6, 7, 10, 19, 28, 32) # 6-Chihuahua,7-Coahuila, 10-Durango, 19-NL, 28-Tamaulipas, 32-Zacatecas
+        mex@data$INPC[match(id.Noreste, mex@data$ID)  ] <<- valores['Noreste']
+        mex@data$Region[match(id.Noreste, mex@data$ID)  ] <<- 'Noreste'
+        id.Sur <- c(4, 5, 20, 23, 27, 31) #4-Campeche, 5-Chiapas, 20-Oaxaca, 23-Quintana Roo, 27-Tabasco, 31-Yucatan
+        mex@data$INPC[match(id.Sur, mex@data$ID)  ] <<- valores['Sur']
+        mex@data$Region[match(id.Sur, mex@data$ID)  ] <<- 'Sur'
+        mex@data$INPC[ mex@data$ID == 9  ] <<- valores['Mexico']
+        id.Centro.sur <- c(12, 13, 15, 17, 21, 29, 30 ) #12-guerrero, 13-Hidalgo, 15-Edo.Mexico, 17-morelos, 21-Puebla, 29-Tlaxcala, 30-Veracruz
+        mex@data$INPC[match(id.Centro.sur, mex@data$ID)  ] <<- valores['Centro.sur']
+        mex@data$Region[match(id.Centro.sur, mex@data$ID)  ] <<- 'Centro sur'
+        # construccion del mapa
+        leaflet(mex) %>%
             addPolygons(color = "#444444", weight = 1, smoothFactor = 0.8,
                         opacity = 1.0, fillOpacity = 0.5,
                         fillColor = ~colorQuantile("YlOrRd", INPC)(INPC),
                         highlightOptions = highlightOptions(color = "black", weight = 4,
                                                             bringToFront = FALSE),
-                        label = ~paste0(Nombre, ' INPC: ', round(INPC, 2)))%>%
-            removeControl("zonesLegend")
-
-
-
-    })
+                        label = ~paste0(ESTADO, ' INPC: ', round(INPC, 2), ' Region: ', Region)) %>%
+            addProviderTiles("Esri.WorldTerrain")
+})
     #eventos (informacion extra para funcionalidad de los controles)
     output$Nacional <- renderPlotly({
         if(input$inpcnacHist == 'No')
@@ -178,7 +201,7 @@ server = function(input, output) {
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
       p
-      
+
     })
 
     # titulo del pronostico actual a un mes
@@ -213,7 +236,7 @@ server = function(input, output) {
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
       p
-      
+
     })
     output$Regional3mes <- renderPlotly({
       load(file=paste0('BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_6 region ',input$Reg,'.Rdata'))
@@ -222,7 +245,7 @@ server = function(input, output) {
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
       p
-      
+
     })
     output$Cambio3mes <- renderPlotly({
       load(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_3.Rdata')
@@ -230,7 +253,7 @@ server = function(input, output) {
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
-      p     
+      p
     })
 
     # titulo del pronostico actual a tres meses
@@ -251,7 +274,7 @@ server = function(input, output) {
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
       p
-      
+
     })
     output$Regional6mes <- renderPlotly({
       load(file=paste0('BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_6 region ',input$Reg,'.Rdata'))
@@ -260,7 +283,7 @@ server = function(input, output) {
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
       p
-      
+
     })
     output$Cambio6mes <- renderPlotly({
       load(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_6.Rdata')
@@ -268,7 +291,7 @@ server = function(input, output) {
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
         layout(legend = list(orientation = 'h'))
-      p     
+      p
     })
     # titulo del pronostico actual a seis meses
     output$nacHTML6mes <- renderText({
