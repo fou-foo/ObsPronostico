@@ -1,21 +1,33 @@
-library(shiny)
-library(shinyWidgets)
-library(shinydashboard)
-library(shinydashboardPlus)
-library(plotly)
-library(ggplot2)
-library(markdown)
-library(DT)
-library(lubridate)
-#mapa#
-library(leaflet)
-library(geoR)
-library(sp)
-library(rgdal)
+##########################################
+# Proyecto: Dashboard de pronosticos del laboratorio econometrico
+# J. Antonio Garcia: jose.ramirez@cimat.mx
+# CODIGO PARA CONSTRUIR LA INTERFAZ GRAFICA
+##########################################
+# Dependencias
+{
+    library(shiny) # probee la infraestructura basica para apps web
+    library(shinyjs) # incorpora elementos de javascript a R
+    library(shinyWidgets) # se requiere para hacer mas monos los widgets del package 'shiny'
+    library(shinydashboard) # anade los tabs de la derecha y el header
+    library(shinydashboardPlus) # permiter la construccion de los cuadro que se cierran y los botones de colores
+    library(plotly) # despliega las graficas con metainformacion
+    library(ggplot2) # construccion de graficas planas que se converten a 'plotly'
+    library(markdown) # Por si alguna vez la nota metodologica se hace publica en otra app
+    # dependencias del mapa
+    library(leaflet) # permite usar el mapa
+    library(geoR)  # necesaria para manejar mapas
+    library(sp)  # clase principal de R para mapas
+    library(rgdal) # otra clase principal de R para mapas
+    library(DT) # permite presentar los data.frame's en tablas bonitas
+}
+#############################################
+# Codifciacion de la logia de la aplicacion #
+#############################################
 
-
+# Todo el codigo se compone de un solo Closure
 server = function(input, output) {
-    # mapa regional
+    # Leemos los archivos que siempre se utilizan UNA SOLA VEZ para mejorar los tiempos de respuesta
+    # Construccion del mapa para el promedio de la tasa interanual para el INPC por regiones
     mex <- readOGR(dsn="MapaSHP")
     mex@data$Region <- ''
     mex@data$INPC <- -1.
@@ -143,7 +155,9 @@ server = function(input, output) {
     #                                      mes.casteo,"horizonte_",
     #                                      input$inpcRegmes, '.csv')#
     #   string})
-
+    output$TasaDeCambio <- renderText({
+        paste0('<h style="color:#702039;"><strong> Promedio de tasa de cambio para el tipo de cambio peso-dolar del ano ',input$Cambioinitanio , "</strong></h>")
+    })
     output$NacHTML <- renderText({
       paste0('<h style="color:#702039;"><strong> Pronóstico de INPC a ', input$inpcnacmes, " meses a partir del mes ", input$inpcnacinitmes, " del año ", input$inpcnacinitanio , "</strong></h>")
     })
