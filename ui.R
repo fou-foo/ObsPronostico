@@ -84,14 +84,15 @@ tabItems( #esta linea que contiene todos los taps
         fluidRow(column(width=12, htmlOutput('PronosticosinpcNac'))),
         # pronostico mas reciente a un mes
         fluidRow(column(width = 12,
-        boxPlus(title='', closable = TRUE, status = "info", width=4,
+        boxPlus(title='', closable = TRUE, status = "info", width=6,
                 htmlOutput("nacHTML1mes"), plotlyOutput("Nacional1mes")),
         # pronostico mas reciente tres meses
-        boxPlus(title='', closable = TRUE, status = "info", width=4,
-                htmlOutput("nacHTML3mes"), plotlyOutput("Nacional3mes")),
+        boxPlus(title='', closable = TRUE, status = "info", width=6,
+                htmlOutput("nacHTML3mes"), plotlyOutput("Nacional3mes")) #,
         # pronostico mas reciente seis meses
-        boxPlus(title='', closable = TRUE, status = "info", width=4,
-                htmlOutput("nacHTML6mes") ,     plotlyOutput("Nacional6mes"))) ) ) ,
+        #boxPlus(title='', closable = TRUE, status = "info", width=4,
+         #       htmlOutput("nacHTML6mes") ,     plotlyOutput("Nacional6mes")))
+        ) ) ) ,
     # termina primer tab
     # segundo tab  con los pronosticos de la inflacion a nivel regional y CDMX
     tabItem(tabName = "INPCReg", #IMPORTANTE QUE SE LLAME IGUAL QUE EN LA LINEA 32
@@ -144,15 +145,15 @@ tabItems( #esta linea que contiene todos los taps
     fluidRow( column(width=12, htmlOutput('PronosticosinpcReg'))),
     # pronostico a un mes
     fluidRow(column(width = 12,
-      boxPlus(title='', closable = TRUE, status = "info", width=4,
+      boxPlus(title='', closable = TRUE, status = "info", width=6,
       # tercer cuadro (pronostico regional un mes con toda la info)
             htmlOutput("RegHTML1mes"), plotlyOutput("Regional1mes")),
-      boxPlus(title='', closable = TRUE, status = "info", width=4,
+      boxPlus(title='', closable = TRUE, status = "info", width=6,
       # cuarto cuadro (pronostico tres meses con toda la info)
-            htmlOutput("RegHTML3mes"), plotlyOutput("Regional3mes")),
-      boxPlus(title='', closable = TRUE, status = "info", width=4,
+            htmlOutput("RegHTML3mes"), plotlyOutput("Regional3mes"))   )) ),
+#      boxPlus(title='', closable = TRUE, status = "info", width=4,
       # quinto cuadro (pronostico seis meses con toda la info)
-            htmlOutput("RegHTML6mes") ,     plotlyOutput("Regional6mes"))) ) ),
+#            htmlOutput("RegHTML6mes") ,     plotlyOutput("Regional6mes"))) ) ),
     # termina tercer fila del segundo tab
 
     # comienza tercer tab TIPO DE CAMBIO
@@ -188,7 +189,7 @@ tabItems( #esta linea que contiene todos los taps
                                options = list(style = "btn-warning"))),
             column(width=2,
                      pickerInput(inputId = "Cambiomes", label = "Meses a pronosticar",
-                               choices = c("1", "3","6"), options = list(  style = "btn-warning"))),
+                               choices = c("1", "3"), options = list(  style = "btn-warning"))),
             column(width=2,
                      pickerInput(inputId = "CambioHist", label = "Histórico de la serie",
                                  choices = c("No", "Si_"), options = list(  style = "btn-warning"))) )),
@@ -196,18 +197,19 @@ tabItems( #esta linea que contiene todos los taps
             # comienza ultima fila del tercer tab pronosticos mas recientes para tipo de cambio
             fluidRow(column(width=11, htmlOutput('PronosticosCambio'))),
             fluidRow(column(width=12,
-             boxPlus(title='', closable = TRUE, status = "info", width=4,
+             boxPlus(title='', closable = TRUE, status = "info", width=6,
                      htmlOutput("CambioHTML1mes"), plotlyOutput("Cambio1mes")),
             # cuarto cuadro (pronostico tres meses con toda la info)
-            boxPlus(title='', closable = TRUE, status = "info", width=4,
-                     htmlOutput("CambioHTML3mes"), plotlyOutput("Cambio3mes")),
+            boxPlus(title='', closable = TRUE, status = "info", width=6,
+                     htmlOutput("CambioHTML3mes"), plotlyOutput("Cambio3mes"))
             # quinto cuadro (pronostico seis meses con toda la info)
-            boxPlus(title='', closable = TRUE, status = "info", width=4,
-                htmlOutput("CambioHTML6mes") ,     plotlyOutput("Cambio6mes"))) ) )
+    #    boxPlus(title='', closable = TRUE, status = "info", width=4,
+    #    htmlOutput("CambioHTML6mes") ,     plotlyOutput("Cambio6mes"))
+            ) ) )
     # termina ultima fila del tercer tab
-
+      )
     )
-)
+
 # termina body
 
 
