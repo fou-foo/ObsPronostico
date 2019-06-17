@@ -25,7 +25,7 @@
 # Codificacion de la logia de la aplicacion #
 #############################################
 
-# Todo el codigo se compone de un solo Closure
+# Todo el codigo se compone de un solo CLOSURE
 server = function(input, output) {
     # Leemos los archivos que siempre se utilizan UNA SOLA VEZ para mejorar los tiempos de respuesta
     # Construccion del mapa para el promedio de la tasa interanual para el INPC por regiones
@@ -140,7 +140,6 @@ server = function(input, output) {
             p.hist
         }
     })
-
     # Closure para construir la grafica del pronostico del tipo de cambio en el tercer tab
     output$Cambioplot <- renderPlotly({
         if(input$CambioHist == 'No')
@@ -158,9 +157,9 @@ server = function(input, output) {
             p.hist
         }
     })
-    # Funciones que solamente despliegas un mensaje con fomato html sobre la grafica que se esta viendo, cambian en tiempo real
+    # Funciones que solamente despliegan un mensaje con fomato html sobre la grafica que se esta viendo, cambian en tiempo real
     output$TasaDeCambio <- renderText({
-        paste0('<h style="color:#702039;"><strong> Promedio de tasa de cambio para el tipo de cambio peso-dolar del ano ',input$Cambioinitanio , "</strong></h>")
+        paste0('<h style="color:#702039;"><strong> Promedio de tasa de cambio para el tipo de cambio peso-dólar del ano ',input$Cambioinitanio , "</strong></h>")
     })
     output$NacHTML <- renderText({
       paste0('<h style="color:#702039;"><strong> Pronóstico de INPC a ', input$inpcnacmes, " meses a partir del mes ", input$inpcnacinitmes, " del año ", input$inpcnacinitanio , "</strong></h>")
@@ -194,7 +193,7 @@ server = function(input, output) {
     # Lectura y despliege de las graficas de los tres tabs
     # La primer grafica del ultimo reglon del tab 1
     output$Nacional1mes <- renderPlotly({
-      load(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_1 region Nacional.Rdata')
+      load(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_1 region Nacional.Rdata')
                        p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01'))) + ylim(c(85,110))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -203,7 +202,7 @@ server = function(input, output) {
       })
     # la primer grafica del ultimo reglon del segundo tab
     output$Regional1mes <- renderPlotly({
-      load(paste0(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_1 region ',input$Reg,'.Rdata'))
+      load(paste0(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_1 region ',input$Reg,'.Rdata'))
       p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01')))  + ylim(c(85,110))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -212,7 +211,7 @@ server = function(input, output) {
     })
     # la primer grafica del ultimo reglon del tercer tab
     output$Cambio1mes <- renderPlotly({
-      load(paste0(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_1.Rdata'))
+      load(paste0(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_1.Rdata'))
       p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01'))) + ylim(c(17,28))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -222,13 +221,13 @@ server = function(input, output) {
     })
     # titulo del pronostico actual a un mes
     output$PronosticosinpcNac <- renderText({
-        paste0('<h1 style="color:#702039;"><strong> Pronósticos de INPC nacional (corte febrero de 2019) </strong></h1>')
+        paste0('<h1 style="color:#702039;"><strong> Pronósticos de INPC nacional (corte marzo de 2019) </strong></h1>')
     })
     output$PronosticosinpcReg <- renderText({
-        paste0('<h1 style="color:#702039;"><strong> Pronósticos de INPC regional (corte febrero de 2019) </strong></h1>')
+        paste0('<h1 style="color:#702039;"><strong> Pronósticos de INPC regional (corte marzo de 2019) </strong></h1>')
     })
     output$PronosticosCambio <- renderText({
-        paste0('<h1 style="color:#702039;"><strong> Pronósticos de Tipo de cambio (corte febrero de 2019) </strong></h1>')
+        paste0('<h1 style="color:#702039;"><strong> Pronósticos de Tipo de cambio (corte marzo de 2019) </strong></h1>')
     })
     output$nacHTML1mes <- renderText({
       paste0('<h style="color:#702039;"><strong> A 1 mes </strong></h>')
@@ -242,7 +241,7 @@ server = function(input, output) {
 
     # las graficas segundas del ultimos reglon
     output$Nacional3mes <- renderPlotly({
-      load(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_3 region Nacional.Rdata')
+      load(file='BinariosMax/GGplotpronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_3 region Nacional.Rdata')
       p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01')))  + ylim(c(85,110))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -251,7 +250,7 @@ server = function(input, output) {
 
     })
     output$Regional3mes <- renderPlotly({
-      load(file=paste0('BinariosMax/GGplotpronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_6 region ',input$Reg,'.Rdata'))
+      load(file=paste0('BinariosMax/GGplotpronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_3 region ',input$Reg,'.Rdata'))
       p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01')))  + ylim(c(85,110))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -260,7 +259,7 @@ server = function(input, output) {
 
     })
     output$Cambio3mes <- renderPlotly({
-      load(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 6 anio_2018numero_de_meses_pronostico_3.Rdata')
+      load(file='BinariosMax/GGplotTipoDeCambiopronostico_fecha_corteMes_ 1 anio_2019numero_de_meses_pronostico_3.Rdata')
       p <- p.hist + xlim(c(ymd('2016-01-01'), ymd('2019-06-01'))) + ylim(c(17,28))
       p <- ggplotly(p, tooltip = c('x','y'), dynamicTicks = TRUE )
       p <- p %>% config(collaborate=FALSE , displaylogo = FALSE) %>%
@@ -321,14 +320,14 @@ server = function(input, output) {
 
     #### opiniones condicionales
     output$OpinionOk <- renderText({
-      paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
+      paste0('<h style="color:#702039;"><strong> Boletín (datos actualizados a marzo de 2019) </strong></h>')
     })
 
     output$opinionOkReg <- renderText({
-      paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
+      paste0('<h style="color:#702039;"><strong> Boletín (datos actualizados a marzo de 2019) </strong></h>')
     })
     output$opinionOkCambio <- renderText({
-        paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
+        paste0('<h style="color:#702039;"><strong> Boletín (datos actualizados a marzo de 2019) </strong></h>')
     })
 
 #FUNCIONES PARA DESCARGAR el boletin en formato pdf 

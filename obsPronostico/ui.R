@@ -46,7 +46,7 @@ tabItems( #esta linea que contiene todos los taps
         column( width=4, # dentro de esta columna se incluye el cuadro para redireccionar al boletin impreso
         # descarga del boletin 
         boxPlus(title = htmlOutput("OpinionOk"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin1", "Descargue el boletin") ) ),
+            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin1", "Descargue el boletín") ) ),
         column( width = 4)) ,
               #termina primer reglon del primer tab
     # comienza segundo reglon del primer tab, el que contiene el pronostico interactivo y la tabla
@@ -62,14 +62,14 @@ tabItems( #esta linea que contiene todos los taps
     fluidRow(
         # caja para acomodar los reglones
         box(side='right', title='Opciones del pronóstico', id='controlnac', height='150px', width = 12,
-             p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2015. Elige el mes y año de inicio del pronóstico, asi como el horizonte a pronosticar'),
+             p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2017. Elige el mes y año de inicio del pronóstico, así como el horizonte a pronosticar'),
         #comienzan los controles del primer tab
         column(width=2,
                     pickerInput(inputId = "inpcnacinitmes", label = "Mes inicio",
                                  choices = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"),
                                  options = list(  style = "btn-warning"))),
        column(width=2,
-                    pickerInput( inputId = "inpcnacinitanio", label = "Año inicio", choices = c("2017", "2018"),
+                    pickerInput( inputId = "inpcnacinitanio", label = "Año inicio", choices = c("2017", "2018", "2019"),
                                  options = list(style = "btn-warning"))) ,
        column(width=2,
         pickerInput(inputId = "inpcnacmes", label = "Meses a pronosticar",
@@ -77,7 +77,7 @@ tabItems( #esta linea que contiene todos los taps
                                 options = list(  style = "btn-warning"))),
        column(width=2,
                     pickerInput(inputId = "inpcnacHist", label = "Histórico de la serie",
-                                choices = c('No', 'Si'),
+                                choices = c('No', 'Sí'),
                                 options = list(  style = "btn-warning"))      )))   ,
         #terminan controles y tercer reglon
         # inica ultimo reglon con los pronosticos mas recientes
@@ -94,13 +94,17 @@ tabItems( #esta linea que contiene todos los taps
          #       htmlOutput("nacHTML6mes") ,     plotlyOutput("Nacional6mes")))
         ) ) ) ,
     # termina primer tab
+    
+    
+    
+    
     # segundo tab  con los pronosticos de la inflacion a nivel regional y CDMX
     tabItem(tabName = "INPCReg", #IMPORTANTE QUE SE LLAME IGUAL QUE EN LA LINEA 32
     # primer reglon del segundo tab
     # contiene cuadro info del experto
     fluidRow(column( width=4), column( width=4,
     boxPlus(title = htmlOutput("opinionOkReg"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin2", "Descargue el boletin") ) ),
+            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin2", "Descargue el boletín") ) ),
     column( width = 4)) ,
     # comienza segundo reglon del segundo tab
     fluidRow(
@@ -117,7 +121,7 @@ tabItems( #esta linea que contiene todos los taps
      fluidRow(
          # control de los graficos
          box(side='right', title='Opciones del pronóstico', id='controlreg', height='175px', width = 12,
-         p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2015. Elige el mes y año de inicio del pronóstico, asi_ como el horizonte a pronosticar y la región'),
+         p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2017. Elige el mes y año de inicio del pronóstico, así como el horizonte a pronosticar y la región'),
          column(width=2,
                 pickerInput(inputId = "Reg", label = "Región",
                             choices = c("Frontera.norte", "Noroeste", "Noreste", "Centro.norte", "Centro.sur", "Sur", "Mexico"),
@@ -127,7 +131,7 @@ tabItems( #esta linea que contiene todos los taps
                     choices = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"),
                     options = list(  style = "btn-warning"))),
                column(width=2,
-                    pickerInput( inputId = "inpcReginitanio", label = "Año inicio", choices = c("2017", "2018"),
+                    pickerInput( inputId = "inpcReginitanio", label = "Año inicio", choices = c("2017", "2018", "2019"),
                     options = list(style = "btn-warning")) ),
          column(width=2,
                     pickerInput(inputId = "inpcRegmes", label = "Meses a pronosticar",
@@ -135,7 +139,7 @@ tabItems( #esta linea que contiene todos los taps
                     options = list(  style = "btn-warning"))),
          column(width=2,
                     pickerInput(inputId = "inpcRegHist", label = "Histórico de la serie",
-                                choices = c('No', 'Si_'),
+                                choices = c('No', 'Sí'),
                                 options = list(  style = "btn-warning"))))  )  ,
     # termina tercer fila
     # inicia ultima fila del segundo tab con los pronosticos mas recientes
@@ -154,13 +158,19 @@ tabItems( #esta linea que contiene todos los taps
 #            htmlOutput("RegHTML6mes") ,     plotlyOutput("Regional6mes"))) ) ),
     # termina tercer fila del segundo tab
 
+
+
+
+
+
+
     # comienza tercer tab TIPO DE CAMBIO
     tabItem(tabName = "Cambio", #MANTENER EL MISMO NOMBRE DEL TAB COMO EN LA LINEA 33
        # comienza primer fila del tercer tab
        fluidRow(column( width=4),        # primer cuadro info del experto se deba un espacio
                 column( width=4,
                 boxPlus(title = htmlOutput("opinionOkCambio"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-                                collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin3", "Descargue el boletin") ) ),
+                                collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin3", "Descargue el boletín") ) ),
                 column( width = 4)) ,
        # se termina primer fila del tercer tab que contiene solo el mensaje del experto
        # inicia segunda fila del tercer tab, con las graficas y tablas de pronosticos para el tipo de cambio
@@ -176,13 +186,13 @@ tabItems( #esta linea que contiene todos los taps
        fluidRow(
            # control de los graficos
            box(side='right', title='Opciones del pronóstico', id='controlCambio', height='150px', width = 12,
-               p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2015. Elige el mes y año de inicio del pronóstico, asi_ como el horizonte a pronosticar'),
+               p('Con los botones puede verificar la calidad del pronóstico mes a mes desde enero de 2017. Elige el mes y año de inicio del pronóstico, así como el horizonte a pronosticar'),
            column(width=2,
                      pickerInput(inputId = "Cambioinitmes", label = "Mes inicio",
                                choices = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"),
                                options = list(  style = "btn-warning"))),
            column(width=2,
-                     pickerInput( inputId = "Cambioinitanio", label = "Año inicio", choices = c("2017", "2018"),
+                     pickerInput( inputId = "Cambioinitanio", label = "Año inicio", choices = c("2017", "2018", "2019"),
                                options = list(style = "btn-warning"))),
             column(width=2,
                      pickerInput(inputId = "Cambiomes", label = "Meses a pronosticar",

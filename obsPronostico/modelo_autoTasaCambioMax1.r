@@ -14,7 +14,7 @@
   library(lubridate) # manejo sencillo de fechas
   library(vars) # funciones para estimar modelos var
   library(forecast) # unknown
-  dt.file <-"/home/fou/Desktop/ObsPronostico/obsPronostico/"
+  dt.file <-"/home/josegarcia/obsPronostico/"
   source(paste0(dt.file, "model_functions.r", sep =""))
   source(paste0(dt.file, "inflacionTasaCambioMax.r", sep =""))
   #---------------------------------------
@@ -60,12 +60,9 @@
 }
 for( anio.shiny in anio.loop)
 {
-   anio.shiny <- anio.loop[1]
     print(paste0('anio: ', anio.shiny))
   for(mes.shiny in anio.parser )
   {
-    mes.shiny <- anio.parser[1]
-    length.fore <- 3
     mes.first <- dmy("01/01/2005")
     mes.last <- dmy(paste0('01/', mes.shiny, '/', anio.shiny))
     mes.format <- as.Date(mes.last, format = "%d/%m/%Y")
@@ -135,7 +132,6 @@ for( anio.shiny in anio.loop)
     write.csv(pronostico_tasa_interanual, paste0("Pronostico_Tasa_Interanual_",mes.format,".csv"),row.names = F)
   }
 }
-
 t.fin<- Sys.time()
 t.fin-t.inicio
 

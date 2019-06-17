@@ -116,12 +116,6 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
       outliers <- rep(0, nrow(vec$y))
       outliers[which.max(rowSums(abs(scale(resid(vec))))) + vec$p] <- 1
       # lo siguiente es la justificacion del cambio de linea
-
-      #>>>outliers.foo <- outliers
-      #outliers[(which(rowSums(abs(scale(resid(vec)))) ==
-       #                   max(rowSums(abs(scale(resid(vec)))))))+ vec$p] <- 1 # esta linea se puede hacer mas breve
-      # >>> identical(outliers.foo,outliers)
-      #outliers[(which(rowSums(abs(scale(resid(vec)))) == max(rowSums(abs(scale(resid(vec)))))))+ vec$p] <- 1
     }
     outliers <- c(rep(0, vec$p), mult.outliers(vec)$out.var)
 
