@@ -495,13 +495,10 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
                            theil[["forecast"]]["upper"], bias[["forecast"]]["upper"],
                            log.lik[["forecast"]]["upper"], c.i[["forecast"]]["upper"],
                            r.2[["forecast"]]["upper"], trend[["forecast"]]["upper"]))
-
     forecast.mean <- cbind(rowMeans(forecast.price), linf, lsup, lsup -
                              rowMeans(forecast.price))
     forecast.mean <- as.data.frame(forecast.mean)
     colnames(forecast.mean) <- c("Forecast", "linf", "lsup", "CI")
-
-
   }
   #creacion de las graficas
   mat.plot <- cbind(c(vec$y[1:n,region], rep(NA, length.fore)), c(rep(NA, n - 1),

@@ -14,6 +14,7 @@
     library(ggplot2) # construccion de graficas planas que se converten a 'plotly'
     library(markdown) # Por si alguna vez la nota metodologica se hace publica en otra app
     # dependencias del mapa
+    library(lubridate)
     library(leaflet) # permite usar el mapa
     library(geoR)  # necesaria para manejar mapas
     library(sp)  # clase principal de R para mapas
@@ -41,13 +42,12 @@ tabItems( #esta linea que contiene todos los taps
     tabItem(tabName = "INPCNac", # primer tab del dashboard IMPORTANTE: el nombre debe de coincidir con los de la linea 31
     # primer cuadro info del experto
     fluidRow( # se define un renglon
-        column( width=2), # se deja un espacio entre el borde y la siguiente columna DENTRO DEL REGLON
-        column( width=8, # dentro de esta columna se incluye el cuadro para redireccionar al boletin impreso
+        column( width=4), # se deja un espacio entre el borde y la siguiente columna DENTRO DEL REGLON
+        column( width=4, # dentro de esta columna se incluye el cuadro para redireccionar al boletin impreso
+        # descarga del boletin 
         boxPlus(title = htmlOutput("OpinionOk"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-            collapsible = TRUE, enable_dropdown = TRUE, dropdown_icon = "external-link-square-alt",
-            dropdown_menu = dropdownItemList(
-                            dropdownItem(url = "https://www.cimat.mx/es/Monterrey", name = "Ir al boletin") ),
-            p("Descargue de boletin") ) ), column( width = 2)) ,
+            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin1", "Descargue el boletin") ) ),
+        column( width = 4)) ,
               #termina primer reglon del primer tab
     # comienza segundo reglon del primer tab, el que contiene el pronostico interactivo y la tabla
     fluidRow(
@@ -98,12 +98,10 @@ tabItems( #esta linea que contiene todos los taps
     tabItem(tabName = "INPCReg", #IMPORTANTE QUE SE LLAME IGUAL QUE EN LA LINEA 32
     # primer reglon del segundo tab
     # contiene cuadro info del experto
-    fluidRow(column( width=2), column( width=8,
-            boxPlus(title = htmlOutput("opinionOkReg"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-                    collapsible = TRUE, enable_dropdown = TRUE, dropdown_icon = "external-link-square-alt",
-                    dropdown_menu = dropdownItemList(
-                        dropdownItem(url = "https://www.cimat.mx/es/Monterrey", name = "Ir al boletin") ),
-                     p("Descargue el boletin") ) ), column( width = 2)) ,
+    fluidRow(column( width=4), column( width=4,
+    boxPlus(title = htmlOutput("opinionOkReg"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
+            collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin2", "Descargue el boletin") ) ),
+    column( width = 4)) ,
     # comienza segundo reglon del segundo tab
     fluidRow(
         # caja que permite introducir varias pestanas en ella
@@ -159,12 +157,11 @@ tabItems( #esta linea que contiene todos los taps
     # comienza tercer tab TIPO DE CAMBIO
     tabItem(tabName = "Cambio", #MANTENER EL MISMO NOMBRE DEL TAB COMO EN LA LINEA 33
        # comienza primer fila del tercer tab
-       fluidRow(column( width=2),        # primer cuadro info del experto se deba un espacio
-                column( width=8,
-         boxPlus(title = htmlOutput("opinionOkCambio"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
-                 collapsible = TRUE, enable_dropdown = TRUE, dropdown_icon = "external-link-square-alt",
-                dropdown_menu = dropdownItemList(dropdownItem(url = "https://www.cimat.mx/es/Monterrey", name = "Ir al boletin") ),
-                                 p("Descargue el boletin") ) ), column( width = 2)) ,
+       fluidRow(column( width=4),        # primer cuadro info del experto se deba un espacio
+                column( width=4,
+                boxPlus(title = htmlOutput("opinionOkCambio"),  closable = TRUE, width = NULL, status = "success",  solidHeader = TRUE,
+                                collapsible = TRUE, enable_dropdown = FALSE, downloadLink("Boletin3", "Descargue el boletin") ) ),
+                column( width = 4)) ,
        # se termina primer fila del tercer tab que contiene solo el mensaje del experto
        # inicia segunda fila del tercer tab, con las graficas y tablas de pronosticos para el tipo de cambio
         fluidRow(

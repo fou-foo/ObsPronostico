@@ -1,5 +1,5 @@
 #####################################################################
-# Actualizacion en el servidor de CIMAT 30 de mayo de abril de 2019 # 
+# Actualizacion en el servidor de CIMAT 17 de junio de 2019        # 
 # J. Antonio García Ramirez  jose.antonio@cimat.mx               ####
 #####################################################################
 # Programa para ejecutar todos los pronosticos y graficas HASTA DICIEMBRE DE 2018
@@ -24,8 +24,6 @@
 # el contenido de cada archivo de lectura se encuentra en la documentacion 
 # IMPORTANTE: mantener la estructura y nombre de archivos que se menciona en la documentacion
 { 
-  monetario <- read.csv(paste(dt.file, "/Econ.DataMax/Monetario.csv", sep = ""), row.names = 1)
-  row.names(monetario) <- as.character(dmy(row.names(monetario)))
   monetario <- read.csv(paste(dt.file, "/Econ.DataMax/Monetario.csv", sep = ""), row.names = 1)
   row.names(monetario) <- as.character(dmy(row.names(monetario)))
   costos <- read.csv(paste(dt.file, "/Econ.DataMax/Costos.csv", sep = ""), row.names = 1)

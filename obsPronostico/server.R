@@ -1,7 +1,7 @@
 ##########################################
 # Proyecto: Dashboard de pronosticos del laboratorio econometrico
 # J. Antonio Garcia: jose.ramirez@cimat.mx
-# CODIGO PARA CONSTRUIR LA INTERFAZ GRAFICA
+# CODIGO QUE DEFINE LA LOGICA DE LA APP
 ##########################################
 # Dependencias
 {
@@ -321,17 +321,40 @@ server = function(input, output) {
 
     #### opiniones condicionales
     output$OpinionOk <- renderText({
-      paste0('<h style="color:#702039;"><strong> Opinión OK del experto </strong></h>')
+      paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
     })
 
     output$opinionOkReg <- renderText({
-      paste0('<h style="color:#702039;"><strong> Opinión OK del experto </strong></h>')
+      paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
     })
     output$opinionOkCambio <- renderText({
-        paste0('<h style="color:#702039;"><strong> Opinión OK del experto </strong></h>')
+        paste0('<h style="color:#702039;"><strong> Boletín </strong></h>')
     })
 
+#FUNCIONES PARA DESCARGAR el boletin en formato pdf 
+    output$Boletin1 <- downloadHandler(
+      filename = "Boletin.pdf",
+      content = function(file) {
+        file.copy("Boletin/Boletin.pdf", file)
+      }
+    )
 
+    output$Boletin2 <- downloadHandler(
+      filename = "Boletin.pdf",
+      content = function(file) {
+        file.copy("Boletin/Boletin.pdf", file)
+      }
+    )
+    
+    output$Boletin3 <- downloadHandler(
+      filename = "Boletin.pdf",
+      content = function(file) {
+        file.copy("Boletin/Boletin.pdf", file)
+      }
+    )
+    
+    
+    
 #FUNCIONES PARA DESCARGAR LAS tablas que se visualizan a formato,csv
     output$downloadNac <- downloadHandler(
         filename = function() {
