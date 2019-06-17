@@ -1,13 +1,17 @@
-#--------------------------------------
-# Actualizacion en el servidor de CIMAT 10 de abril de 2019. Antonio-
-# Cambio de rango max() por min()
-#--------------------------------------
-
-library(lubridate)
-library(ggplot2)
-library(reshape2)
-library(plotly)
-
+#############################################################
+# Actualizacion en el servidor de CIMAT 17 de junio de 2019 #
+# J. Antonio García Ramirez  jose.antonio@cimat.mx          #
+#############################################################
+# Esta funcion se encarga de elegir el modelo con los mejores 
+# pronosticos para un mes y dia fijo 
+#############################################################
+# bibliotecas
+{
+  library(lubridate) # manjeo sencillo de fechas
+  library(ggplot2) # creacion de graficos
+  library(reshape2) # manipulacion de datos 
+  library(plotly) # creacion de graficos interactivos
+}
 INFLACION <- function(precios.row, price, costos, demanda, monetario,
                       region, variable, mes.first, mes.last,
                       length.fore, lag.max, c.sig, show.data,
@@ -32,16 +36,13 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
     # restirct (bool) : Condicion de restriccion dentro de los limites historicos
     # objetive (int) : unkwon
     # ec.det (vector:character): Los tres tipos de tendencia
-  #DATOS
-  first <- which(rownames(precios)==mes.first)
+  # preparacion de datos
+  first <- which(rownames(precios)==mes.first) 
   last <- which(rownames(precios)==mes.last)
-
   costos    <- (costos[first:last,])
   monetario <- (monetario[first:last,])
   demanda   <- (demanda[first:last,])
   precios   <- (precios[first:last,])
-  #price <- precios[,region,drop = FALSE]
-  # >> modificacion para tasa de cambio
   precios <- as.data.frame(precios)
   price <- as.data.frame(precios)
   names(precios) <- names(price) <- names(precios.row)
@@ -63,11 +64,9 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
   ## Formando especificacion de todas las combinaciones posibles de parametros de los modelos
   c.num.cols <- ncol(endog.mat)
   n <- nrow(endog.mat)
-
   exog.mat <- NULL
   exog.new <- as.data.frame(matrix(rep(0, length.fore)))
   colnames(exog.new) <- c("Outliers")
-
   idx.matrix  <- as.data.frame(matrix(0, (lag.max - 1)*(seas.max - 1)*length(ec.det), 3))
   colnames(idx.matrix) <- c("seas", "lag", "ec.det")
   idx.matrix[,"seas"] <- rep(2:seas.max, each = (length(ec.det))*(lag.max - 1))
@@ -405,10 +404,7 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
     }
   }
   # Resultados
-  ###
-  ### Nota: Esta parte cambio para incluir el caso length.fore =1
-  # >> idea de Andres
-  ###       Se debe simplificar el codigo
+  # caso de un mes a pronosticar
   if (length.fore!=1){
     forecast.price <- cbind(mape[["forecast"]][,region], mse[["forecast"]][,region],
                             theil[["forecast"]][,region], bias[["forecast"]][,region],
@@ -457,6 +453,7 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
     colnames(forecast.mean) <- c("Forecast", "linf", "lsup", "CI")
 
   } else{
+    # caso a pronosticar mas de un mes
     forecast.price <- cbind(mape[["forecast"]][region], mse[["forecast"]][region],
                             theil[["forecast"]][region], bias[["forecast"]][region],
                             log.lik[["forecast"]][region], c.i[["forecast"]][region],
@@ -506,9 +503,7 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
 
 
   }
-  # termina modificacion de andres
-  #escritura en disco de las imagenes para dashboard
-  library(lubridate)
+  #creacion de las graficas
   mat.plot <- cbind(c(vec$y[1:n,region], rep(NA, length.fore)), c(rep(NA, n - 1),
                       vec$y[n], forecast.mean[,"Forecast"]),
                     c(rep(NA, n), linf), c(rep(NA, n), lsup))
@@ -525,8 +520,6 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
   name.mes <- substring(as.character(seq(as.Date("2005/01/01"),
                                          by = "month", length = nrow(mat.graph))), 3, 7)
   name.mes  <- name.mes[seq.graph]
-
-  #########
   temp <- as.data.frame(mat.plot)
   temp$tiempo <- ymd(paste0('20',name.mes,'-01'))
   temp$color <- 'indianred4'
@@ -553,31 +546,26 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
                          Demanda=mat.plot.exog[, "Demanda"]*sdd + media)
   sectores$tiempo <- mes.first + months(0:(nrow(sectores)-1))
   sectores <- melt(sectores, id='tiempo')
-
- 
-
-      p.hist <- ggplot(data=extra,  aes(x=tiempo, y=value, color='Historico'  ))+
+  # construccion d ela grafica
+  p.hist <- ggplot(data=extra,  aes(x=tiempo, y=value, color='Historico'  ))+
           geom_line(size=1.5)+
           geom_line(data=subset(temp, as.character(variable)!=region),
                     aes(x=tiempo, y=value, color='Pronostico'), lty=2, size=1.5)+
-          #geom_line(data=temp2.1, aes(x=tiempo, y=value.inf, color='Lim. inf 95%', size=0.3))+
-          #geom_line(data=temp2.2, aes(x=tiempo, y=value, color= 'Lim. sup 95%', size=0.3)) +
-          geom_ribbon(data=temp2, aes(ymin=value.inf, ymax=value, fill='IC 95%'),
-                      alpha=0.3,show.legend =FALSE)+
+          #geom_line(data=temp2.1, aes(x=tiempo, y=value.inf, color='Lim. inf 95%', size=0.1))+
+          #geom_line(data=temp2.2, aes(x=tiempo, y=value, color= 'Lim. sup 95%', size=0.1)) +
+          geom_line(data=temp2, aes(x = tiempo, y=value.inf, color='IC 95%'))+
+          geom_line(data=temp2, aes(x = tiempo, y=value, color='IC 95%')) + 
           scale_fill_discrete(guide=FALSE)+
           scale_color_manual(
-              values=c(   "lightblue",  'purple' ),
-              labels=c(  'Historico' ,  'Pronostico' ))+
-          #scale_x_date(date_labels = '%y/%m', breaks = extra$tiempo)+
-          xlim(c(ymd('2005-01-01'), max(c(extra$tiempo, temp$tiempo))))+
+              values=c(   "lightblue",   'orange', 'purple' ),
+              labels=c(  'Historico' , 'I.C. 95%', 'Pronostico' ))+
+          xlim(c(ymd('2005-01-01'), max(c(extra$tiempo, temp$tiempo, temp2$tiempo))))+
           theme_minimal()+
-          guides( size = FALSE, fill=FALSE, alpha=FALSE)+
+          guides( size = FALSE, fill=FALSE, alpha=FALSE) + labs(color= "") +
           theme(axis.text.x = element_text(angle = 45, hjust = 1),
-                #legend.position="bottom",
                 legend.title = element_blank())+
-          #xlim(c(mes.first+years(5), max(temp$tiempo))) +
           ylab('') + xlab('Fecha') + ylim(range(extra$value))
-      p.hist
+      # escritura en disco de la grafica
       dir.create(paste0(dt.file, "BinariosMax/"))
       setwd(paste0(dt.file,'BinariosMax/' ))
       save(p.hist, file=paste0( 'GGplotpronostico_fecha_corteMes_ ',
@@ -589,6 +577,7 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
       save(p.hist, file=paste0( 'pronostico_fecha_corteMes_ ',
                                month(mes.last ), ' anio_', year(mes.last ),
                                'numero_de_meses_pronostico_', length.fore, " region ", region,  '.Rdata' ))
+      # termina escritura en disco
       save(forecast.price,
            file=paste0('Inflacionpronostico_metricas_desempenio_mes_', month((mes.last)), ' anio_', year((mes.last)), 'numero_de_meses_pronostico_', length.fore, '.Rdata'))
       forecast.mean <- as.data.frame(forecast.mean)
@@ -613,9 +602,5 @@ INFLACION <- function(precios.row, price, costos, demanda, monetario,
       write.csv(forecast.price,
                 file=paste0('Inflacionpronostico_metricas_desempenio_mes_', month((mes.last)), ' anio_', year((mes.last)), 'numero_de_meses_pronostico_', length.fore,' region ', gsub('\\.', '_', region),
                             '.csv'))
-
-       # 7. Grafica de pronostico multivariado
-    ## NOTA: Esta es la imagen que resume TODO el modelo desarrollado
-
   return(list(forecast.price, forecast.mean))
 }

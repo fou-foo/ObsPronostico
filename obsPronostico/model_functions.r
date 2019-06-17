@@ -159,7 +159,6 @@ r2.model <- function(object, num.eq = 1){
   r2  <- sec/stc
   g.l <- n - length(coef(lm.object))
   r2.adj <- 1-(1-r2)*((n-1)/(g.l))
-
   result <- list(r2, r2.adj)
   names(result) <- c("r2", "r2.adj")
   return(result)
@@ -569,9 +568,6 @@ factor.pls <- function(y, x, xreg = NULL, c.var = 0.80)
         # "load.mat" (matrix): Matriz de loadings de las componentes utiles
         # "load.mat.w" (matrix): Matriz de loadings de las componentes utiles ponderadas
         # "score.pls" (matrix): Matriz con los scores de las componentes oncadenado con los pronosticos hechos con estos
-
-    #>>> sugerencias
-    # if(sum(!is.na(y))!= sum(!is.na(X))) stop() >> fijarse que no hay nulos en ningun data.frame
     y <- as.matrix(y)
     x <- as.matrix(x)
     m.pls <- plsr(log(y) ~ scale(x)) # siempre jala bien usar el log ??
@@ -581,11 +577,6 @@ factor.pls <- function(y, x, xreg = NULL, c.var = 0.80)
         # en la siguiente linea se seleccionan solo las componentes utiles y se castean a 'matrix' para poder usar la implementacion de crossvalidation
     load.mat <- matrix(m.pls$loading.weights[,1:length(w.pls), drop = FALSE], ncol = length(w.pls))
     rownames(load.mat) <- colnames(x)
-       # NO APARECE DOCUMENTADO COMO SE OBTIENE EL ATRIBUTO 'SCORES' DE LA CLASE 'MVR' PERO SI EXISTE
-    # ponderacion de los scores de cada observacion en las componentes utiles
-    # se guarda COMO VARIABLE GLOBAL
-    # consultar ?pls::scores
-    # en este ejercicio hay 36 scores por errores de lectura VERIFICAR LECTURA y PREVENIR NULOS
     score.pls <<- matrix(rowSums(sapply(1 : length(w.pls),
                                         function(i) m.pls$scores[, i, drop=FALSE] * w.pls[i])))
     n <- nrow(y)
@@ -603,11 +594,9 @@ factor.pls <- function(y, x, xreg = NULL, c.var = 0.80)
     if(nrow(load.mat) > 1)
     {
         # si hay mas de una carga se ponderan en funcion de la imporatncia d elas componentes
-        # SIEMPRE EXISTE UNA CARGA ????????
         load.mat.w <- matrix(rowSums(sapply(1 : length(w.pls), function(x) load.mat[, x, drop=FALSE] * w.pls[x])))
         rownames(load.mat.w) <- rownames(load.mat)
     }else{
-        # en que caso no puede existir una carga ?
         load.mat.w <- load.mat
     }
     result <- list(load.mat, load.mat.w, score.pls)

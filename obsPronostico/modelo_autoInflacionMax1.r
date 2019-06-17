@@ -14,7 +14,7 @@
   library(lubridate) # manejo sencillo de fechas
   library(vars) # funciones para estimar modelos var
   library(forecast) # unknown
-  dt.file <-"/home/josegarcia/obsPronostico/" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
+  dt.file <-"/home/fou/Desktop/ObsPronostico/obsPronostico/" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
   source(paste0(dt.file, "model_functions.r", sep ="")) # define funciones para chechar cointegracion, seleccion y validacion de modelos VAR
   source(paste(dt.file, "inflacionMax.r", sep ="")) # define una unica funcion que selecciona el mejor modelo y escribe en disco archivos 
 }
@@ -23,7 +23,6 @@
 #####################################################################
 # el contenido de cada archivo de lectura se encuentra en la documentacion 
 # IMPORTANTE: mantener la estructura y nombre de archivos que se menciona en la documentacion
-
 { 
   monetario <- read.csv(paste(dt.file, "/Econ.DataMax/Monetario.csv", sep = ""), row.names = 1)
   row.names(monetario) <- as.character(dmy(row.names(monetario)))
@@ -43,7 +42,7 @@
 # Se fijan los parametros a valores ya probados.
 # para valores de parametros que produzcan errores, la documentación indica que valores usar
 {
-  args <- commandArgs(TRUE) # recencion de los valores de la consola de linux
+  args <- commandArgs(TRUE) # recepcion de los valores de la consola de linux
   print(c(args))
   length.fore <- strtoi(args[1])  # Num. de meses a pronosticar
   mes.shiny <- strtoi(args[2]) # ano a pronosticar
@@ -59,8 +58,8 @@
   n.try <- 5         # Rezagos a probar
   restrict <- FALSE  # TRUE Si pronostico no puede superar (min,max)
   objective <- 3     # Lo usa en el bias - Ahora el objetivo de BM es 3
-  lag.max <- 12    # Para el numero de modelos
-  seas.max <- 12    # Para el numero de modelos
+  lag.max <- 2    # Para el numero de modelos
+  seas.max <- 2    # Para el numero de modelos
   anual <- 12             # Para tasa interanual >> lo añadio Andres
   ec.det <- c("none", "const", "trend")
   anio.parser <- c(paste0('0',1:9), 10:12)
