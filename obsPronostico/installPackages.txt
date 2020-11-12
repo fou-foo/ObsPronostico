@@ -1,11 +1,16 @@
 sudo su - -c "R -e \"install.packages('pls', repos='https://cran.rstudio.com/')\""
 
+sudo su - -c "R -e \"install.packages('lubridate', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('reshape2', repos='https://cran.rstudio.com/')\""
+
 sudo apt install   libcurl4-openssl-dev
 
 sudo su - -c "R -e \"install.packages('forecast', repos='https://cran.rstudio.com/')\""
 
 sudo su - -c "R -e \"install.packages('vars', repos='https://cran.rstudio.com/')\""
 
+ sudo apt install  libssl-dev 
 sudo su - -c "R -e \"install.packages('plotly', repos='https://cran.rstudio.com/')\""
 
 sudo su - -c "R -e \"install.packages('DT', repos='https://cran.rstudio.com/')\""
@@ -23,5 +28,9 @@ sudo su - -c "R -e \"install.packages('shinydashboard', repos='https://cran.rstu
 sudo su - -c "R -e \"install.packages('leaflet', repos='https://cran.rstudio.com/')\""
 
 sudo su - -c "R -e \"install.packages('shinymanager', repos='https://cran.rstudio.com/')\""
+sudo apt-get install gdal-bin proj-bin libgdal-dev libproj-dev
 
+sudo su - -c "R -e \"install.packages('rgdal', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('shinydashboardPlus', repos='https://cran.rstudio.com/')\""
 
