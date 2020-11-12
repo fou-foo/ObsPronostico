@@ -22,7 +22,7 @@ meseslength=${#meses[@]}
     ### Parallel version
     for ID in ${meses[*]}; do echo $ID; done  | xargs -I{} --max-procs 22 bash -c "
       echo $fore {};
-      Rscript /home/josegarcia/obsPronostico/modelo_autoInflacionMax1.r $fore {}"
+      Rscript /home/foo/obsPronostico/modelo_autoInflacionMax1.r $fore {}"
     echo "Exit code for xargs = $?"
     ###################################
     

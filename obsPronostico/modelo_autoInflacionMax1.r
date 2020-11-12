@@ -14,7 +14,7 @@
   library(lubridate) # manejo sencillo de fechas
   library(vars) # funciones para estimar modelos var
   library(forecast) # unknown
-  dt.file <-"/home/josegarcia/obsPronostico/" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
+  dt.file <-"/home/foo/obsPronostico/" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
   source(paste0(dt.file, "model_functions.r", sep ="")) # define funciones para chechar cointegracion, seleccion y validacion de modelos VAR
   source(paste(dt.file, "inflacionMax.r", sep ="")) # define una unica funcion que selecciona el mejor modelo y escribe en disco archivos 
 }
@@ -51,9 +51,9 @@
   print(paste0('Número de meses a pronosticar ',length.fore ))
   print(paste0('Mes a pronosticar ', mes.shiny))
   c.sig <- 0.10      # Nivel de significancia
-  show.data <- 48    # ventana de tiempo
+  show.data <- 12    # ventana de tiempo
   length.test <- 6    # Meses a probar  intramuestra
-  n.try <- 5         # Rezagos a probar
+  n.try <- 2         # Rezagos a probar
   restrict <- FALSE  # TRUE Si pronostico no puede superar (min,max)
   objective <- 3     # Lo usa en el bias - Ahora el objetivo de BM es 3
   lag.max <- 2    # Para el numero de modelos
