@@ -43,9 +43,9 @@
   print(paste0('Mes a pronosticar',mes.shiny ))
   regiones <- 'Tipo.de.cambio'
   c.sig <- 0.10      # Nivel de significancia
-  show.data <- 48    # ventana de tiempo
+  show.data <- 12    # ventana de tiempo
   length.test <- 6    # Meses a probar  intramuestra
-  n.try <- 6         # Rezagos a probar
+  n.try <- 2         # Rezagos a probar
   restrict <- FALSE  # TRUE Si pronostico no puede superar (min,max)
   objective <- 3     # Lo usa en el bias - Ahora el objetivo de BM es 3
   lag.max <- 2    # Para el numero de modelos
