@@ -34,3 +34,4 @@ sudo su - -c "R -e \"install.packages('rgdal', repos='https://cran.rstudio.com/'
 
 sudo su - -c "R -e \"install.packages('shinydashboardPlus', repos='https://cran.rstudio.com/')\""
 
+cp -rf /home/foo/ObsPronostico/obsPronostico/BinariosMax/TipoDeCambioMax/* /home/foo/ObsPronostico/obsPronostico/BinariosMax/
