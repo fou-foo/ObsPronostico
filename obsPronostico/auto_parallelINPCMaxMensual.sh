@@ -2,7 +2,7 @@
 
 directory=$(pwd)
 
-#ultimo mes para pronostico SOLO SE TIENE INFORMACION COMLETA HASTA MARZO
+#ultimo mes para pronostico
 declare -a meses=("1" "2" "3")
 meseslength=${#meses[@]}
   
@@ -11,7 +11,7 @@ meseslength=${#meses[@]}
   horizontelength=${#horizonte[@]}
 
   #horizonte
-  declare -a anio=("2019")
+  declare -a anio=("2017" "2018")
     
     echo  `date`
     for (( j=1; j<${horizontelength}+1; j++ ));
@@ -22,7 +22,7 @@ meseslength=${#meses[@]}
     ### Parallel version
     for ID in ${meses[*]}; do echo $ID; done  | xargs -I{} --max-procs 6 bash -c "
       echo $fore {};
-      Rscript  /home/foo/ObsPronostico/obsPronostico/ActualizacionMensual/modelo_autoInflacionMax1Mensual.r $fore {}"
+      Rscript /home/foo/ObsPronostico/obsPronostico/modelo_autoInflacionMax1.r $fore {}"
     echo "Exit code for xargs = $?"
     ###################################
     
