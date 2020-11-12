@@ -14,6 +14,14 @@ sudo su - -c "R -e \"install.packages('geoR', repos='https://cran.rstudio.com/')
 
 sudo su - -c "R -e \"install.packages('leaflet', repos='https://cran.rstudio.com/')\""
 
-sudo su - -c "R -e \"install.packages('plotly', repos='https://cran.rstudio.com/')\""
+sudo su - -c "R -e \"install.packages('shinyjs', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('shinyWidgets', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('shinydashboard', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('leaflet', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('shinymanager', repos='https://cran.rstudio.com/')\""
 
 

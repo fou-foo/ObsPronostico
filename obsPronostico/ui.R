@@ -5,6 +5,11 @@
 ##########################################
 # Dependencias
 {
+  library(shinymanager)
+  credentials <- data.frame(
+    user = c("Karabe", "foo"), # mandatory
+    password = c("Karabe", "foo") # mandatory
+  )
     library(shiny) # probee la infraestructura basica para apps web
     library(shinyjs) # incorpora elementos de javascript a R
     library(shinyWidgets) # se requiere para hacer mas monos los widgets del package 'shiny'
@@ -235,3 +240,5 @@ ui = dashboardPage(skin = "red",
                    sidebar, body)
 
 
+# Wrap your UI with secure_app
+ui <- secure_app(ui)

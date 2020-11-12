@@ -5,6 +5,13 @@
 ##########################################
 # Dependencias
 {
+  
+  library(shinymanager)
+  credentials <- data.frame(
+    user = c("Karabe", "foo"), # mandatory
+    password = c("Karabe", "foo") # mandatory
+  )
+  
     library(shiny) # probee la infraestructura basica para apps web
     library(shinyjs) # incorpora elementos de javascript a R
     library(shinyWidgets) # se requiere para hacer mas monos los widgets del package 'shiny'
@@ -27,6 +34,15 @@
 
 # Todo el codigo se compone de un solo CLOSURE
 server = function(input, output) {
+  # call the server part
+  # check_credentials returns a function to authenticate users
+  res_auth <- secure_server(
+    check_credentials = check_credentials(credentials)
+  )
+  
+  output$auth_output <- renderPrint({
+    reactiveValuesToList(res_auth)
+  })
     # Leemos los archivos que siempre se utilizan UNA SOLA VEZ para mejorar los tiempos de respuesta
     # Construccion del mapa para el promedio de la tasa interanual para el INPC por regiones
     mex <- readOGR(dsn="MapaSHP") # se recomienda la leer la carpeta no solo el archivo .shp los demas archivos contiene (en ocaciones) informacion necesaria
