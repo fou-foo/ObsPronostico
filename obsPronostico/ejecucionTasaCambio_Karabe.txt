@@ -1,0 +1,3821 @@
+Thu Nov 12 08:31:18 UTC 2020
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: lmtest
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: strucchange
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lmtest
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+Loading required package: urca
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "2"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar2"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "1" "5"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar5"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "3"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar3"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "1"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar1"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "6"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar6"
+[1] "1" "4"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar4"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.74503 secs
+1 7
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "7"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar7"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 39.47429 secs
+1 8
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 41.56323 secs
+1 9
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+[1] "1" "8"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar8"
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1" "9"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar9"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 45.61134 secs
+1 10
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1"  "10"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar10"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 50.98837 secs
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+1 11
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 52.29578 secs
+1 12
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "1"  "11"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar11"
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "1"  "12"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar1"
+[1] "Mes a pronosticar12"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 32.92959 secs
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 48.18232 secs
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.30399 secs
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 46.01221 secs
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 44.11022 secs
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 43.66933 secs
+Exit code for xargs = 0
+3 1
+3 2
+3 3
+3 4
+3 5
+3 6
+
+Attaching package: ‘pls’
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘lubridate’
+
+Loading required package: MASS
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "3"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar3"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "3" "4"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar4"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "1"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar1"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "2"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar2"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "5"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar5"
+[1] "3" "6"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar6"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1][1] "Tipo.de.cambio"
+ "Tipo.de.cambio"
+[1][1] "2017-05-01"
+ "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.85007 secs
+3 7
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.96599 secs
+3 8
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: urca
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "7"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar7"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3" "8"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar8"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 53.66916 secs
+3 9
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 54.07432 secs
+3 10
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 54.3084 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 54.30535 secs
+3 11
+3 12
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: urca
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+Loading required package: lmtest
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: lmtest
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Loading required package: lmtest
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3"  "10"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar10"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3"  "12"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar12"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "3" "9"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar9"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "3"  "11"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar3"
+[1] "Mes a pronosticar11"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 42.10072 secs
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 42.29593 secs
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.93427 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 33.82312 secs
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 42.22403 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 41.84063 secs
+Exit code for xargs = 0
+6 1
+6 2
+6 3
+6 4
+6 5
+6 6
+
+Attaching package: ‘pls’
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+
+Attaching package: ‘lubridate’
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: zoo
+
+Attaching package: ‘lubridate’
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: strucchange
+Loading required package: zoo
+Loading required package: zoo
+Loading required package: lmtest
+Loading required package: lmtest
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+
+Attaching package: ‘zoo’
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: sandwich
+Loading required package: urca
+Loading required package: urca
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Loading required package: lmtest
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "6" "5"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar5"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "6"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar6"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "anio: 2017"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "2"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar2"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "1"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar1"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "3"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar3"
+[1] "6" "4"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar4"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 36.84188 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 36.81535 secs
+6 7
+6 8
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: strucchange
+Loading required package: MASS
+Loading required package: zoo
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+Loading required package: urca
+Loading required package: urca
+Loading required package: lmtest
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "7"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar7"
+[1] "6" "8"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar8"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1][1] "2017-06-01"
+ "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1][1] "Tipo.de.cambio"
+ "Tipo.de.cambio"
+[1][1] "2017-10-01"
+ "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 57.19737 secs
+6 9
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 57.59986 secs
+6 10
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 58.14758 secs
+6 11
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 58.20078 secs
+Loading required package: lmtest
+6 12
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+
+Attaching package: ‘pls’
+
+Loading required package: zoo
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+
+Attaching package: ‘pls’
+
+The following object is masked from ‘package:stats’:
+
+    loadings
+
+Loading required package: lmtest
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: urca
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: MASS
+Loading required package: strucchange
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: sandwich
+Loading required package: lmtest
+Loading required package: urca
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6" "9"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar9"
+Loading required package: lmtest
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6"  "10"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar10"
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "6"  "11"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar11"
+
+Attaching package: ‘plotly’
+
+The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+The following object is masked from ‘package:MASS’:
+
+    select
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+The following object is masked from ‘package:graphics’:
+
+    layout
+
+[1] "6"  "12"
+[1] "Tasa de cambio"
+[1] "Numero de meses a pronosticar6"
+[1] "Mes a pronosticar12"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "anio: 2017"
+[1] "Tipo.de.cambio"
+[1] "2017-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-06-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 39.16233 secs
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-07-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-08-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 43.10042 secs
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-09-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2017-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2017-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2017-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "anio: 2018"
+[1] "Tipo.de.cambio"
+[1] "2018-01-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-02-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-03-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-04-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-05-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-06-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+[1] "Tipo.de.cambio"
+[1] "2018-07-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 37.7498 secs
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-08-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-09-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-10-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-11-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+[1] "Tipo.de.cambio"
+[1] "2018-12-01"
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 44.11549 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 44.36321 secs
+There were 50 or more warnings (use warnings() to see the first 50)
+Time difference of 44.64363 secs
+Exit code for xargs = 0
+Thu Nov 12 08:36:15 UTC 2020

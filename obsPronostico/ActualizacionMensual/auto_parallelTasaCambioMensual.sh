@@ -20,7 +20,7 @@ do
     ### Parallel version
     for ID in ${meses[*]}; do echo $ID; done  | xargs -I{} --max-procs 6 bash -c "
       echo $fore {};
-      Rscript  /home/foo/ObsPronostico/obsPronostico/modelo_autoTasaCambioMax1Mensual.r $fore {}"
+      Rscript  /home/foo/ObsPronostico/obsPronostico/ActualizacionMensual/modelo_autoTasaCambioMax1Mensual.r $fore {}"
       echo "Exit code for xargs = $?"
     ###################################
     
