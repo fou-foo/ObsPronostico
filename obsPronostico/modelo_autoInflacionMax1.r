@@ -14,7 +14,7 @@
   library(lubridate) # manejo sencillo de fechas
   library(vars) # funciones para estimar modelos var
   library(forecast) # unknown
-  dt.file <-"/home/foo/obsPronostico/" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
+  dt.file <-"/home/foo/ObsPronostico/obsPronostico" # direccion en dond se encuentra la carpeta 'obsPronostico' en el servidor (es el ambiente de desarollo NO LA DE PRODUCCION)
   source(paste0(dt.file, "model_functions.r", sep ="")) # define funciones para chechar cointegracion, seleccion y validacion de modelos VAR
   source(paste(dt.file, "inflacionMax.r", sep ="")) # define una unica funcion que selecciona el mejor modelo y escribe en disco archivos 
 }
