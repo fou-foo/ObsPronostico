@@ -1,0 +1,19 @@
+sudo su - -c "R -e \"install.packages('pls', repos='https://cran.rstudio.com/')\""
+
+sudo apt install   libcurl4-openssl-dev
+
+sudo su - -c "R -e \"install.packages('forecast', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('vars', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('plotly', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('DT', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('geoR', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('leaflet', repos='https://cran.rstudio.com/')\""
+
+sudo su - -c "R -e \"install.packages('plotly', repos='https://cran.rstudio.com/')\""
+
+
