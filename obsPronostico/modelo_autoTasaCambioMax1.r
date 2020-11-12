@@ -14,7 +14,7 @@
   library(lubridate) # manejo sencillo de fechas
   library(vars) # funciones para estimar modelos var
   library(forecast) # unknown
-  dt.file <-"/home/josegarcia/obsPronostico/"
+  dt.file <-"/home/foo/ObsPronostico/obsPronostico"
   source(paste0(dt.file, "model_functions.r", sep =""))
   source(paste0(dt.file, "inflacionTasaCambioMax.r", sep =""))
   #---------------------------------------
