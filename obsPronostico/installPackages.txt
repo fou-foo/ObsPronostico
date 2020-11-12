@@ -37,3 +37,7 @@ sudo su - -c "R -e \"install.packages('shinydashboardPlus', repos='https://cran.
 cp -rf /home/foo/ObsPronostico/obsPronostico/BinariosMax/TipoDeCambioMax/* /home/foo/ObsPronostico/obsPronostico/BinariosMax/
 
 cp -rf  /home/foo/ObsPronostico/obsPronostico/resultados_boletinMax/*  /home/foo/ObsPronostico/obsPronostico/Mapa/
+
+cp -rf  /home/foo/ObsPronostico/obsPronostico/BinariosMax/TipoDeCambioMax/*  /home/foo/ObsPronostico/obsPronostico/BinariosMax/
+
+sudo cp -rf  /home/foo/ObsPronostico/obsPronostico/* /srv/shiny-server/obsPronostico
